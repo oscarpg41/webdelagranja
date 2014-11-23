@@ -1,0 +1,464 @@
+html{font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif; color: #888;}
+
+BODY {
+   margin: 0 0 10 0px;
+   text-align: center;
+   color: #686868;
+   background: #ffffff;
+   margin: 0;
+   padding: 0;
+   SCROLLBAR-FACE-COLOR: #d1d1d0;
+   SCROLLBAR-HIGHLIGHT-COLOR:#dadad8; 
+   SCROLLBAR-SHADOW-COLOR: #ffffff; 
+   SCROLLBAR-3DLIGHT-COLOR: #dadad8; 
+   SCROLLBAR-ARROW-COLOR: #3d506f; 
+   SCROLLBAR-TRACK-COLOR: #eaeaea;            
+   SCROLLBAR-DARKSHADOW-COLOR: #000000;
+}
+
+td{
+   font-size: 80%;
+}
+
+INPUT,SELECT,TEXTAREA {
+   border: 1pt solid #dadad8;
+   color:#4b6ca3;
+}
+
+.directorio{
+   color:#416fb1;
+   FONT-WEIGHT: normal;
+}
+                                     
+.border{
+   border-right :  1px solid #dadad8;  
+   border-left  :  1px solid #dadad8;  
+   border-top :  1px solid #dadad8;  
+   border-bottom  :  1px solid #dadad8;  
+}
+
+/*    MENUS SUPERIORES */
+TABLE.menu{
+   border-right :  1px solid #dadad8;  
+   border-left  :  1px solid #dadad8;  
+}
+
+TD.seleccionado{
+   background-color: #fefeff;
+   font-size: 11px; 
+   FONT-WEIGHT: bold;
+   height:30px;
+}
+
+TD.no_seleccionado{
+   background-color: #ebebec;
+   font-size: 11px; 
+   height:30px;
+}
+
+TD.submenu_2  {
+   font-size: 11px; 
+   background-color: #fefeff;
+   border-bottom : 1px solid #dadad8; 
+   border-right :  1px solid #dadad8;  
+   border-left  :  1px solid #dadad8;  
+   COLOR: #4b6ca3;
+}
+
+TD.visitas{
+   background-color: #ebebec;
+   COLOR: #b93b09; 
+   font-size: 10px; 
+   height:30px;
+   FONT-WEIGHT: bold;
+}
+
+
+
+a         {COLOR: #6383b9; TEXT-DECORATION: none;}
+a:visited {COLOR: #6383b9; TEXT-DECORATION: none;}
+a:active  {COLOR: #6383b9; TEXT-DECORATION: none;}
+a:hover   {COLOR: #000000; TEXT-DECORATION: underline;}
+
+
+a.link2         {COLOR: #6383b9; font-style: italic; TEXT-DECORATION: none;}
+a.link2:visited {COLOR: #6383b9; font-style: italic; TEXT-DECORATION: none;}
+a.link2:active  {COLOR: #6383b9; font-style: italic; TEXT-DECORATION: none;}
+a.link2:hover   {COLOR: #000000; font-style: italic; TEXT-DECORATION: underline;}
+
+
+a.menu         {COLOR: #4b6ca3; TEXT-DECORATION: none; outline: none;}
+a.menu:visited {COLOR: #4b6ca3; TEXT-DECORATION: none;}
+a.menu:active  {COLOR: #4b6ca3; TEXT-DECORATION: none;}
+a.menu:hover   {COLOR: #4b6ca3; TEXT-DECORATION: underline;}
+
+a.submenu         {COLOR: #4b6ca3; TEXT-DECORATION: none; outline: none;}
+a.submenu:visited {COLOR: #4b6ca3; TEXT-DECORATION: none;}
+a.submenu:active  {COLOR: #4b6ca3; TEXT-DECORATION: none;}
+a.submenu:hover   {COLOR: #3d506f; TEXT-DECORATION: underline;}
+
+
+
+
+
+li{
+   padding: 2 2 2 2px;
+   margin-top: 4pt;   
+   margin-bottom: 4pt;   
+   font-weight: normal;
+   list-style: none;
+}
+
+TD.celda1{
+  COLOR: #686868;
+  background:#dadad8;
+  font-size: 14px;
+  FONT-WEIGHT: bold;
+}
+
+#imgDestacada{
+   border-bottom : 1px solid #dadad8; 
+   border-right  : 1px solid #dadad8;  
+   border-left   : 1px solid #dadad8;     
+   border-top    : 1px solid #dadad8;     
+}
+
+#imgRight{
+   margin-left:   10px;
+   margin-right:  0px;
+   margin-top:    0px;
+   margin-bottom: 5px;
+   border-bottom : 1px solid #dadad8; 
+   border-right  : 1px solid #dadad8;  
+   border-left   : 1px solid #dadad8;     
+   border-top    : 1px solid #dadad8;     
+}
+
+#imgLeft{
+   margin-left:   0px;
+   margin-right:  10px;
+   margin-top:    0px;
+   margin-bottom: 5px;
+   border-bottom : 1px solid #dadad8; 
+   border-right  : 1px solid #dadad8;  
+   border-left   : 1px solid #dadad8;     
+   border-top    : 1px solid #dadad8;     
+}
+
+#imagen{
+   border-bottom : 1px solid #dadad8; 
+   border-right  : 1px solid #dadad8;  
+   border-left   : 1px solid #dadad8;     
+   border-top    : 1px solid #dadad8;     
+}
+
+.thumbs{
+   margin:   2px;
+   border-bottom : 1px solid #dadad8; 
+   border-right  : 1px solid #dadad8;  
+   border-left   : 1px solid #dadad8;     
+   border-top    : 1px solid #dadad8;  	
+}
+
+#tabla_tiempo{
+   border-top    : 1px solid #dadad8; 
+   border-bottom : 1px solid #dadad8; 
+   border-right  :  1px solid #dadad8;  
+   border-left   :  1px solid #dadad8;  
+   margin-top: 1pt;   
+   margin-bottom: 5pt;   
+   background-color: #f6f5f1;
+}
+
+#texto_uno   {
+   font-size: 16px; 
+   color: #3d506f; 
+   FONT-WEIGHT: bold;
+}
+
+#titulo_3   {
+   font-size: 14px; 
+   COLOR: #3d506f; 
+   FONT-WEIGHT: bold;
+}
+
+
+
+#titulo_h3{
+  text-align: left;
+  padding-left: 15px;   
+  color: #16898a;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10pt;  
+  margin-top: 15pt;  
+  font-variant: small-caps;
+}
+
+
+
+
+
+
+/***  P�gina Inicio  ***/
+#tabla1{
+   border-bottom : 1px solid #dadad8; 
+   margin-left:  5px;
+   margin-right: 5px;   
+   margin-top:   10pt;
+   overflow: hidden;
+}
+#tabla2{
+   border-bottom : 1px solid #dadad8; 
+   margin-left:  5px;
+   margin-right: 5px;   
+   margin-top: 6pt;   
+   margin-bottom: 10pt; 
+   width:50%;  
+}
+
+#cabtab {
+   color: #000000;
+   padding-left:  5px;
+   padding-top:  5px;
+   padding-bottom:  5px;
+   text-align: left;
+   font: italic 19px/22px Georgia,"Times New Roman",Times,serif;
+   letter-spacing: -1px;   
+}
+#texto_main{
+   text-align: justify;
+   padding-left:   5px;
+   padding-right:  2px;
+   padding-top:    5px;
+   padding-bottom: 5px;   
+} 
+
+#tabla_pie{
+   border: 1px solid #dadad8; 
+   margin-top:   16px;      
+   margin-bottom: 10px;   
+   padding: 8px;	   
+}
+
+#berberechos{
+   background-color: #ffffff;
+   text-align: center;
+   padding: 5px; 
+   font-size: 80%; 
+}
+
+
+/************* estilo para los div ***************/	
+#titulo1{
+  text-align: left;
+  padding-left: 15px;   
+  color: #134d86;
+  font-size: 15px;
+  margin-bottom: 10pt;  
+  margin-top: 0pt;  
+}
+
+#titulo2{
+  text-align: left;
+  padding-left: 15px;   
+  font-size: 15px;
+  margin-bottom: 10pt;  
+  margin-top: 0pt;  
+  font-variant: small-caps;
+}
+
+
+#tituloNochesMagicas{
+  text-align: left;
+  font-size: 15px;
+  margin-bottom: 10pt;  
+  margin-top: 0pt; 
+}
+
+/************* estilo para los textos ***************/	
+.text1     {font-size: 12px; COLOR: #686868; FONT-WEIGHT: normal;}
+.text1Bold {font-size: 12px; COLOR: #686868; FONT-WEIGHT: bold;}
+.text2     {font-size: 12px; COLOR: #416fb1; padding-left:5; padding-right:5; FONT-WEIGHT: normal;}
+.text2Bold {font-size: 12px; COLOR: #416fb1; padding-left:5; padding-right:5; FONT-WEIGHT: bold;}
+.textSmall {font-size: 10px; padding-left:5; padding-right:5;}
+.text3     {font-size: 12px; COLOR: #16898a; padding-left:5; padding-right:5; FONT-WEIGHT: normal;}
+.text3Bold {font-size: 12px; COLOR: #16898a; padding-left:5; padding-right:5; FONT-WEIGHT: bold;}
+.text4     {font-size: 12px; COLOR: #134d86; padding-left:5; padding-right:5; FONT-WEIGHT: normal;}
+.text4Bold {font-size: 12px; COLOR: #134d86; padding-left:5; padding-right:5; FONT-WEIGHT: bold;}
+.textPieFoto {font-size: 10px; padding-left:5; padding-right:5;COLOR: #134d86;}
+
+
+
+
+.publi_2 {
+	width: 140px;
+  margin-bottom:5px;
+  background-color: #FFFFFF;
+}
+
+
+.thumbcell{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}	
+
+
+/************* estilo para los men�s de las fotos de la f�brica ***************/	
+
+.menu_foto_fabrica_1 {
+   border-right : 2px solid #16898a;	
+   border-left  : 2px solid #16898a;	
+   border-top   : 2px solid #16898a;	
+   background-color: #f6f5f1;
+}   
+
+.menu_foto_fabrica_2 {
+   border-bottom : 2px solid #16898a;	
+}   
+
+
+
+/* directorio */
+#sectores{
+   width:140px;
+ 
+   border-top    : 1px solid #dadad8; 
+   border-bottom : 1px solid #dadad8; 
+   border-right  : 1px solid #dadad8;  
+   border-left   : 1px solid #dadad8;  
+   background-color: #f6f5f1;
+} 
+
+#listado_empresas{
+   position:relative; 
+   top:-380px; 
+   left:300px;
+} 
+
+
+#empresa{
+   position:relative; 
+   top:-400px; 
+   left:170px;
+   width:670px;
+} 
+
+
+#desc_empr{
+   position:relative; 
+   left:-130px;
+   width:650px;
+   margin-bottom : 20px; 
+   COLOR: #686868;
+   background-color: #fcf9f9;
+   padding-left:   5px;
+   padding-right:  5px;
+   padding-top:    5px;
+   padding-bottom: 5px;     
+}
+
+#name_sector{
+   position:relative; 
+   left:-120px;
+   width:690px;
+   margin-bottom : 20px; 
+   COLOR: #3d506f; 
+   font-size: 14px;
+   font-weight: bold;
+   font-variant: small-caps;
+}
+
+
+/* edades del hombre */
+
+#detalle_edades{
+   position:absolute; 
+   top:200px; 
+   left:260px;
+   width:590px;
+} 
+
+#piezas_edades{
+   width:240px;
+   border-top    : 1px solid #dadad8; 
+   border-bottom : 1px solid #dadad8; 
+   border-right  : 1px solid #dadad8;  
+   border-left   : 1px solid #dadad8;  
+   background-color: #f6f5f1;
+}
+
+#desc_piezas{
+   width:590px;
+}
+
+
+#nota_destacada{
+   margin-top    : 10px;
+   margin-bottom : 15px;
+}
+
+#cabdestacada{
+   color: #000000;
+   padding-left:  5px;
+   padding-top:  5px;
+   padding-bottom:  5px;
+   text-align: left;
+   font: italic 19px/22px Georgia,"Times New Roman",Times,serif;
+   letter-spacing: -1px;
+   width:460px;
+}
+
+/************* estilo para los men�s laterales de admin ***************/	
+.menu_admin {
+	border : 1px solid #cccccc; 
+	width: 140px;
+	text-align: left;
+   	font-size: 11px;
+   	background-color: #FBF9F9;
+   	margin-bottom:3px;
+   	margin-left:5px;
+}
+
+.menu_admin ul {
+	list-style: none;
+	margin: 0;
+	padding: 2px;
+	color: #003366;
+	background-color: #FBF9F9;
+	}
+	
+.menu_admin li{
+	padding: 1px 0 0 1px;
+	}	
+
+.menu_admin li a {
+	height: 10px;
+	display: block;
+	font-variant: small-caps;
+	text-decoration: none;
+	background-color: #FBF9F9;
+	font-size: 11px; 
+}	
+	
+.menu_admin li a:link, .menu li a:visited {
+	color: #686868;
+	background-color: #FBF9F9;
+	font-size: 11px; 
+	COLOR: #003366; 
+}
+	
+.menu_admin li a:hover, .menu li a:active {
+	background-color: #3C3C3C;
+	font-size: 11px; 
+	COLOR: #ffffff; 
+}
+
+TD.no_seleccionado_admin{
+   height:30px;
+   text-align: left;
+   padding-left: 15px;
+   color:#000000;
+   font-size:0.8em;   
+}
